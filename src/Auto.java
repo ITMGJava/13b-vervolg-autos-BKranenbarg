@@ -18,10 +18,11 @@ public class Auto {
     }
 
 
-    public Auto(String merk) {
+    public Auto(String merk, int kilometerstand) {
         this.merk = merk;
-        snelheid=0;
-        kilometerstand=2000;
+        snelheid = 0;
+        this.kilometerstand = kilometerstand;
+
     }
 
     public static String motorgegevens() {

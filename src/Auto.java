@@ -22,6 +22,7 @@ public class Auto {
         this.merk = merk;
         snelheid = 0;
         this.kilometerstand = kilometerstand;
+        motorgegevens();
 
     }
 

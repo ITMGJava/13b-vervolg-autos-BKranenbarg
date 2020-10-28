@@ -7,13 +7,15 @@ public class testAuto {
         System.out.println(auto1.getMerk());
         System.out.println(auto1.getKilometerstand());
 
-        System.out.println(Auto.motorgegevens());
+        System.out.println(auto1.motorgegevens());
 
 
         Auto tesla = new Auto("Tesla", 2500);
         System.out.println(tesla.getMerk());
         System.out.println(tesla.getSnelheid());
         System.out.println(tesla.getKilometerstand());
+
+        System.out.println(tesla.motorgegevens());
 
         System.out.println(Auto.motorgegevens());
 
